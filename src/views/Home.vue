@@ -1,18 +1,43 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+  <v-app>
+    <v-row>
+      <v-col cols="5" style="padding-left: 6rem; padding-top: 3rem"
+        ><loadfile></loadfile
+      ></v-col>
+      <v-col cols="1">
+        <v-divider
+          style="margin-left: 50%; margin-right: 50%"
+          vertical
+        ></v-divider>
+      </v-col>
+      <v-col cols="5" style="padding-top: 3rem"
+        ><displayfile></displayfile
+      ></v-col>
+    </v-row>
+    <router-link to="about" class="about-button">
+      <v-btn class="ma-1" outlined color="blue"> About </v-btn>
+    </router-link>
+  </v-app>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import Loadfile from "@/views/Loadfile.vue";
+import Displayfile from "@/views/Displayfile.vue";
 
 export default {
-  name: 'Home',
+  name: "Home",
+
   components: {
-    HelloWorld
-  }
-}
+    Loadfile,
+    Displayfile,
+  },
+};
 </script>
+
+<style>
+.about-button {
+  position: absolute;
+  top: 0rem;
+  right: 1rem;
+}
+</style>
