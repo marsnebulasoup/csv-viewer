@@ -1,7 +1,13 @@
 {
   "name": "csv-viewer",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "release": "build",
+  "description": "The (world's 😎) Simplest (and probably most useless) CSV Viewer.",
+  "author": {
+    "name": "Kevin Bryniak",
+    "email": "marsnebulasoup@gmail.com"
+  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
