@@ -2,6 +2,8 @@
 
 The (world's 😎) Simplest (and probably most useless) CSV Viewer.
 
+A sample project.
+
 Load CSV files, or paste in raw data, and view it in a nicely formatted, sortable, searchable, table. 
 
 (Over)made with [Vue](https://vuejs.org), [Vuex](https://vuex.vuejs.org/), [Vuetify](https://vuetifyjs.com/), [Electron](https://www.electronjs.org/), [Vue CLI Plugin Electron Builder](https://nklayman.github.io/vue-cli-plugin-electron-builder/), [Papaparse](https://www.papaparse.com/), [Lodash](https://lodash.com), and 💛.
